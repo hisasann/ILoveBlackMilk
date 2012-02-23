@@ -22,7 +22,7 @@ $(function () {
                 "tag":TAG_NAME
             },
             cache:false,
-            dataType:"jsonp"
+            dataType:"json"
         });
 
         xhr.done(function (json) {
