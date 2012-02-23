@@ -16,7 +16,7 @@ $(function () {
 
         var TAG_NAME = "blackmilk";
         var xhr = $.ajax({
-            url:"http://www28039u.sakura.ne.jp/instagram_tag?tag=ramen",
+            url:"http://www28039u.sakura.ne.jp/instagram_tag",
             type:"GET",
             data:{
                 "tag":TAG_NAME
